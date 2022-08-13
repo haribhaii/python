@@ -1,0 +1,6 @@
+myfile= open('hari.txt')
+print(myfile.read())
+myfile.close()
+myfile=open('hari.txt','a')
+myfile.write('\n hari bhaii')
+myfile.close()
